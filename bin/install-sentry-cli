@@ -14,7 +14,8 @@ var https = require('https');
 var arch = os.arch();
 var spawn = require('child_process').spawn;
 
-var DEFAULT_CDN = 'https://github.com/getsentry/sentry-cli/releases/download/';
+var DEFAULT_CDN = 'https://static.hogangnono.com/sentry/';
+// var DEFAULT_CDN = 'https://github.com/getsentry/sentry-cli/releases/download/';
 
 // downloadUrl vars
 var server;
